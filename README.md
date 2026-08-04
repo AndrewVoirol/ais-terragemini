@@ -37,9 +37,9 @@ The globe is rendered with custom WebGL shaders — no Three.js. Land masses are
 
 <div align="center">
 
-| Day Mode | Night Mode |
-|----------|------------|
-| ![Globe in day mode — blue dot-matrix Earth with holographic HUD](screenshots/globe-day.png) | ![Globe in night mode — amber/gold theme](screenshots/globe-night.png) |
+| Day Mode | AI Analysis | Night Mode |
+|----------|-------------|------------|
+| ![Globe in day mode — blue dot-matrix Earth](screenshots/globe-day.png) | ![Mount Fuji analysis — satellite visual + intelligence card](screenshots/analysis-result.png) | ![Night mode — amber/gold theme](screenshots/globe-night.png) |
 
 </div>
 
