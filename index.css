@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* TerraGemini - Global Styles */
+
+body {
+  margin: 0;
+  background-color: #050505;
+  color: #e5e5e5;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Reset focus outlines for the command input (styled internally) */
+input:focus {
+  outline: none;
+}
+
+/* Tailwind animation for slow spin (used by TargetVisualizer Radar icon) */
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.animate-spin-slow {
+  animation: spin-slow 3s linear infinite;
+}
+
+/* Scanning animation for TargetVisualizer */
+@keyframes scan-vertical {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(128px); }
+}
+.animate-scan-vertical {
+  animation: scan-vertical 2s linear infinite;
+}
+
+/* Grid panning animation */
+@keyframes pan-grid {
+  0% { background-position: 0 0; }
+  100% { background-position: 40px 40px; }
+}
+.animate-pan-grid {
+  animation: pan-grid 4s linear infinite;
+}
