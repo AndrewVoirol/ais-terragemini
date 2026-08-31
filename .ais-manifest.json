@@ -1,0 +1,57 @@
+{
+  "project": {
+    "name": "TerraGemini",
+    "slug": "ais-terragemini",
+    "description": "<div align=\"center\">",
+    "category": "uncategorized",
+    "tags": [
+      "lucide-react",
+      "@google/genai",
+      "topojson-client"
+    ],
+    "status": "shipped",
+    "aistudioUrl": ""
+  },
+  "tech": {
+    "framework": "vite",
+    "frameworkVersion": "^6.2.0",
+    "react": "^19.2.0",
+    "styling": "tailwind",
+    "stylingVersion": "^3.4.17",
+    "three": null,
+    "usesGeminiApi": true,
+    "geminiApiRole": "none",
+    "keyDependencies": [
+      "lucide-react",
+      "@google/genai",
+      "topojson-client",
+      "d3-geo",
+      "@vitejs/plugin-react",
+      "autoprefixer"
+    ],
+    "hasBackend": false
+  },
+  "quality": {
+    "hasReadme": true,
+    "readmeIsCustom": true,
+    "hasDemoGif": true,
+    "hasScreenshots": true,
+    "screenshotCount": 3,
+    "hasFavicon": true,
+    "hasCustomPackageName": true,
+    "hasScaffoldCruft": false,
+    "buildVerified": false,
+    "lastVerifiedDate": null
+  },
+  "repo": {
+    "github": "https://github.com/AndrewVoirol/ais-terragemini.git",
+    "defaultBranch": "main"
+  },
+  "_meta": {
+    "generatedAt": "2026-08-07T02:03:57.889Z",
+    "generatedBy": "ais-fleet/generate-manifests",
+    "needsReview": [
+      "project.category"
+    ]
+  }
+}
