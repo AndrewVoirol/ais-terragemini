@@ -2,6 +2,8 @@
 
 # TerraGemini — Holographic WebGL Planetary Telemetry & Cartography
 
+> **Part of the [Cartography Featured Project](https://andrewvoirol.com/work/cartography) on [andrewvoirol.com](https://andrewvoirol.com) • [Live Interactive Lab](https://andrewvoirol.com/lab/terragemini)**
+
 TerraGemini is an interactive, browser-based WebGL holographic planetary cartography and tactical telemetry system. Engineered from raw GLSL shaders and React 19 without third-party 3D engines, it renders a dynamic dot-matrix globe sampled from 50m TopoJSON geographic data, complete with real-time Blinn-Phong ocean specular glint, $3 \times 3$ Sobel coastline convolution, military coordinate telemetry (MGRS, UTM, DD, DMS), and interactive 3D target lock tracking.
 
 ## Quick Start
